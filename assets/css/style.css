@@ -17,3 +17,21 @@ h1 {
 }
 
 /* nav links bar */
+
+
+
+
+/* main back ground image */
+
+#main-section {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#main-image>img {
+    height: 600px;
+    width: 100%;
+
+}
