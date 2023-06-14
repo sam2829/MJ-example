@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: rgba(235, 235, 235, 0.959);
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #3a3a3a;
+    text-align: center;
+    padding: 10px;
+}
+
+/* nav links bar */
