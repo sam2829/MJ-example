@@ -18,20 +18,70 @@ h1 {
 
 /* nav links bar */
 
+nav {
+    background: #333;
+}
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
 
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* nav bar flex styles */
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav li {
+    flex: 1 1 0;
+}
 
 /* main back ground image */
 
 #main-section {
-    height: 600px;
+    height: 800px;
     width: 100%;
     overflow: hidden;
     position: relative;
+
+
 }
 
-#main-image>img {
-    height: 600px;
+#main-section img {
+    margin: auto;
     width: 100%;
+    height: auto;
+    text-align: center;
+    background-image: url("../images/mj4.jpg")
+}
 
+#main-section-grid {
+    display: grid;
+    max-width: 100%;
+    margin: 0 auto;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, minmax(100px, auto));
+}
+
+.quote-1 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    padding: 10px;
+    color: white;
+    background-color: rgba(245, 91, 91, .2)
 }
