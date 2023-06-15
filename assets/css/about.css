@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: rgba(235, 235, 235, 0.959);
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #3a3a3a;
+    text-align: center;
+    padding: 10px;
+}
+
+/* nav links bar */
+
+nav {
+    background: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 6px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* nav bar flex styles */
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav li {
+    flex: 1 1 0;
+}
+
+/* main back ground image about page */
+
+#main-section-about {
+    height: 800px;
+    width: 100%;
+    background-image: url("../images/mj3.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+
+
+}
+
+/* grid layout for michael surrond stats about page */
+
+
+#main-section-about-grid {
+    display: grid;
+    max-width: 100%;
+    margin: 0 auto;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, minmax(100px, auto));
+}
+
+.stat-1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding-top: 30px;
+    color: white;
+    background-color: rgba(241, 16, 16, 0.726);
+    margin: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.stat-2 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    padding-top: 30px;
+    color: white;
+    background-color: rgba(241, 16, 16, 0.726);
+    margin: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.stat-3 {
+    grid-column: 2/3;
+    grid-row: 6/7;
+    padding-top: 30px;
+    color: white;
+    background-color: rgba(241, 16, 16, 0.726);
+    margin: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+
+.stat-4 {
+    grid-column: 5/6;
+    grid-row: 2/3;
+    padding-top: 30px;
+    color: white;
+    background-color: rgba(241, 16, 16, 0.726);
+    margin: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+
+.stat-5 {
+    grid-column: 5/6;
+    grid-row: 4/5;
+    padding-top: 30px;
+    color: white;
+    background-color: rgba(241, 16, 16, 0.726);
+    margin: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+
+.stat-6 {
+    grid-column: 5/6;
+    grid-row: 6/7;
+    padding-top: 30px;
+    color: white;
+    background-color: rgba(241, 16, 16, 0.726);
+    margin: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+/* grid layout for peoples quotes section */
+
+#peoples-quotes-section {
+    display: grid;
+    max-width: 100%;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, minmax(100px, auto));
+}
+
+
+.pro-quote-1 {
+    grid-column: 1/2;
+    padding: 10px;
+    color: white;
+    background-color: #333;
+    border: 1px solid red;
+    border-radius: 6px;
+}
+
+.pro-quote-2 {
+    grid-column: 2/3;
+    padding: 10px;
+    color: white;
+    background-color: #333;
+    border: 1px solid red;
+    border-radius: 6px;
+}
+
+.pro-quote-3 {
+    grid-column: 3/4;
+    padding: 10px;
+    color: white;
+    background-color: #333;
+    border: 1px solid red;
+    border-radius: 6px;
+}
+
+.pro-quote-4 {
+    grid-column: 4/5;
+    padding: 10px;
+    color: white;
+    background-color: #333;
+    border: 1px solid red;
+    border-radius: 6px;
+}
+
+#peoples-quotes-section span {
+    font-style: italic;
+}
+
+#peoples-quotes-section p {
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* style for footer */
+
+footer {
+    height: 150px;
+    width: 100%;
+}
+
+.social-networks {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding-top: 75px;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+/* footer flex styles */
