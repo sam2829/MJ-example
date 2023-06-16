@@ -60,6 +60,7 @@ nav li {
     background-image: url("../images/mj2.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
+    background-size: cover;
 
 
 
@@ -227,6 +228,307 @@ footer {
     color: #3a3a3a;
 }
 
+
+
+/* about page style */
+
+#main-section-about {
+    height: 800px;
+    width: 100%;
+    background-image: url("../images/mj2.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+/* grid layout for michael surrond stats about page */
+
+
+#main-section-about-grid {
+    display: grid;
+    max-width: 100%;
+    margin: 0 auto;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, minmax(100px, auto));
+}
+
+.stat-1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding-top: 30px;
+    color: white;
+    background-color: rgba(241, 16, 16, 0.726);
+    margin: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.stat-2 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    padding-top: 30px;
+    color: white;
+    background-color: rgba(241, 16, 16, 0.726);
+    margin: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.stat-3 {
+    grid-column: 2/3;
+    grid-row: 6/7;
+    padding-top: 30px;
+    color: white;
+    background-color: rgba(241, 16, 16, 0.726);
+    margin: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+
+.stat-4 {
+    grid-column: 5/6;
+    grid-row: 2/3;
+    padding-top: 30px;
+    color: white;
+    background-color: rgba(241, 16, 16, 0.726);
+    margin: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+
+.stat-5 {
+    grid-column: 5/6;
+    grid-row: 4/5;
+    padding-top: 30px;
+    color: white;
+    background-color: rgba(241, 16, 16, 0.726);
+    margin: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+
+.stat-6 {
+    grid-column: 5/6;
+    grid-row: 6/7;
+    padding-top: 30px;
+    color: white;
+    background-color: rgba(241, 16, 16, 0.726);
+    margin: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+/* grid layout for peoples quotes section */
+
+#peoples-stats-section {
+    display: grid;
+    max-width: 100%;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, minmax(100px, auto));
+}
+
+
+.stat-quote-1 {
+    grid-column: 1/2;
+    padding: 10px;
+    color: white;
+    background-color: #333;
+    border: 1px solid red;
+    border-radius: 6px;
+}
+
+.stat-quote-2 {
+    grid-column: 2/3;
+    padding: 10px;
+    color: white;
+    background-color: #333;
+    border: 1px solid red;
+    border-radius: 6px;
+}
+
+.stat-quote-3 {
+    grid-column: 3/4;
+    padding: 10px;
+    color: white;
+    background-color: #333;
+    border: 1px solid red;
+    border-radius: 6px;
+}
+
+.stat-quote-4 {
+    grid-column: 4/5;
+    padding: 10px;
+    color: white;
+    background-color: #333;
+    border: 1px solid red;
+    border-radius: 6px;
+}
+
+#peoples-stats-section span {
+    font-style: italic;
+}
+
+#peoples-stats-section p {
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* about page style For medium size screens from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+
+    #main-section-about {
+        height: 1200px;
+        width: 100%;
+        background-image: url("../images/mj2.jpg");
+        background-position: bottom;
+        background-repeat: no-repeat;
+
+
+
+    }
+
+
+
+
+    #main-section-about-grid {
+        display: grid;
+        max-width: 100%;
+        margin: 0 auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, auto);
+    }
+
+    .stat-1 {
+        grid-column: 1/2;
+        grid-row: 7/8;
+        padding: 10px;
+        color: white;
+        background-color: rgba(241, 16, 16, 0.726);
+        margin: 10px;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+    .stat-2 {
+        grid-column: 1/2;
+        grid-row: 8/9;
+        padding: 10px;
+        color: white;
+        background-color: rgba(241, 16, 16, 0.726);
+        margin: 10px;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+    .stat-3 {
+        grid-column: 1/2;
+        grid-row: 9/10;
+        padding: 10px;
+        color: white;
+        background-color: rgba(241, 16, 16, 0.726);
+        margin: 10px;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+
+    .stat-4 {
+        grid-column: 1/2;
+        grid-row: 10/11;
+        padding: 10px;
+        color: white;
+        background-color: rgba(241, 16, 16, 0.726);
+        margin: 10px;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+
+    .stat-5 {
+        grid-column: 1/2;
+        grid-row: 11/12;
+        padding: 10px;
+        color: white;
+        background-color: rgba(241, 16, 16, 0.726);
+        margin: 10px;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+
+    .stat-6 {
+        grid-column: 1/2;
+        grid-row: 12/13;
+        padding: 10px;
+        color: white;
+        background-color: rgba(241, 16, 16, 0.726);
+        margin: 10px;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+    /* others quotes section For medium size screens from 950px wide and down*/
+    #peoples-stats-section {
+        display: grid;
+        max-width: 100%;
+        margin: 0 auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, auto);
+    }
+
+
+    .stat-quote-1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        padding: 10px;
+        color: white;
+        background-color: #333;
+        border: 1px solid red;
+        border-radius: 6px;
+    }
+
+    .stat-quote-2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        padding: 10px;
+        color: white;
+        background-color: #333;
+        border: 1px solid red;
+        border-radius: 6px;
+    }
+
+    .stat-quote-3 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        padding: 10px;
+        color: white;
+        background-color: #333;
+        border: 1px solid red;
+        border-radius: 6px;
+    }
+
+    .stat-quote-4 {
+        grid-column: 1/2;
+        grid-row: 4/5;
+        padding: 10px;
+        color: white;
+        background-color: #333;
+        border: 1px solid red;
+        border-radius: 6px;
+    }
+
+}
+
+
 /* gallery style */
 
 #main-gallery-section {
@@ -347,7 +649,7 @@ h3 {
     border-color: #555;
 }
 
-form > input {
+form>input {
     align-items: center;
 }
 
@@ -361,10 +663,158 @@ form > input {
     color: white;
     display: block;
     border: 1px solid red;
-    
+
 }
 
 .vote-button:hover {
     background-color: #555;
     color: white;
+}
+
+
+/* For medium size screens from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+
+    #main-section {
+        height: 1200px;
+        width: 100%;
+        background-image: url("../images/mj2.jpg");
+        background-position: bottom;
+        background-repeat: no-repeat;
+
+
+
+    }
+
+
+
+
+    #main-section-grid {
+        display: grid;
+        max-width: 100%;
+        margin: 0 auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, auto);
+    }
+
+    .quote-1 {
+        grid-column: 1/2;
+        grid-row: 7/8;
+        padding: 10px;
+        color: white;
+        background-color: rgba(241, 16, 16, 0.726);
+        margin: 10px;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+    .quote-2 {
+        grid-column: 1/2;
+        grid-row: 8/9;
+        padding: 10px;
+        color: white;
+        background-color: rgba(241, 16, 16, 0.726);
+        margin: 10px;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+    .quote-3 {
+        grid-column: 1/2;
+        grid-row: 9/10;
+        padding: 10px;
+        color: white;
+        background-color: rgba(241, 16, 16, 0.726);
+        margin: 10px;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+
+    .quote-4 {
+        grid-column: 1/2;
+        grid-row: 10/11;
+        padding: 10px;
+        color: white;
+        background-color: rgba(241, 16, 16, 0.726);
+        margin: 10px;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+
+    .quote-5 {
+        grid-column: 1/2;
+        grid-row: 11/12;
+        padding: 10px;
+        color: white;
+        background-color: rgba(241, 16, 16, 0.726);
+        margin: 10px;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+
+    .quote-6 {
+        grid-column: 1/2;
+        grid-row: 12/13;
+        padding: 10px;
+        color: white;
+        background-color: rgba(241, 16, 16, 0.726);
+        margin: 10px;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+    /* others quotes section For medium size screens from 950px wide and down*/
+    #peoples-quotes-section {
+        display: grid;
+        max-width: 100%;
+        margin: 0 auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, auto);
+    }
+
+
+    .pro-quote-1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        padding: 10px;
+        color: white;
+        background-color: #333;
+        border: 1px solid red;
+        border-radius: 6px;
+    }
+
+    .pro-quote-2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        padding: 10px;
+        color: white;
+        background-color: #333;
+        border: 1px solid red;
+        border-radius: 6px;
+    }
+
+    .pro-quote-3 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        padding: 10px;
+        color: white;
+        background-color: #333;
+        border: 1px solid red;
+        border-radius: 6px;
+    }
+
+    .pro-quote-4 {
+        grid-column: 1/2;
+        grid-row: 4/5;
+        padding: 10px;
+        color: white;
+        background-color: #333;
+        border: 1px solid red;
+        border-radius: 6px;
+    }
+
 }
