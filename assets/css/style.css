@@ -9,12 +9,14 @@ body {
 }
 
 h1 {
+    font-size: 4rem;
     text-transform: uppercase;
     letter-spacing: 6px;
     color: #3a3a3a;
     text-align: center;
     padding: 10px;
 }
+
 
 /* nav links bar */
 
@@ -35,6 +37,7 @@ nav a {
     padding: 10px;
     border: 1px solid red;
     border-radius: 6px;
+    font-size: 5rem;
 }
 
 nav a:hover {
@@ -57,11 +60,12 @@ nav li {
 #main-section {
     height: 800px;
     width: 100%;
-    background-image: url("../images/mj2.jpg");
+    background-image: url("../images/mj6.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: cover;
-
+    background-size: auto;
+    /* background-size: cover;
+*/
 
 
 }
@@ -86,6 +90,7 @@ nav li {
     margin: 10px;
     border-radius: 6px;
     text-align: center;
+    font-size: 2rem;
 }
 
 .quote-2 {
